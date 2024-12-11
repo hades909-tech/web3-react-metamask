@@ -34,7 +34,7 @@ const ConnectWallet: React.FC = () => {
 
         setError(null);
       } catch (err) {
-        setError("Failed to connect wallet");
+        setError("Failed to connect wallet"); 
       }
     } else {
       setError("Web3 not initialized");

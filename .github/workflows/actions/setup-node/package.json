@@ -1,0 +1,9 @@
+{
+  "name": "setup-node-action",
+  "version": "1.0.0",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/exec": "^1.0.4",
+    "@actions/io": "^1.0.0"
+  }
+}

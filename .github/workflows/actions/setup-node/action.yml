@@ -1,0 +1,10 @@
+name: "Setup Node Action"
+description: "Sets up a specified version of Node.js."
+inputs:
+  node-version:
+    description: "The Node.js version to set up."
+    required: true
+    default: "16"
+runs:
+  using: "node20"
+  main: "index.js"

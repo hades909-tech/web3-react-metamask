@@ -1,0 +1,10 @@
+name: "Checkout Action"
+description: "A custom action to check out code from GitHub."
+inputs:
+  repository:
+    description: "The repository to check out."
+    required: true
+    default: "https://github.com/velvettouch1004/web3-react-metamask"
+runs:
+  using: "node20"
+  main: "index.js"

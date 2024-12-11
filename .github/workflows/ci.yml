@@ -17,6 +17,7 @@ jobs:
       # Check out the code from the repository
       - name: Checkout code
         uses: actions/checkout@v1
+        run: rm -rf ~/.cache
         with:
           repository: 'https://github.com/velvettouch1004/web3-react-metamask'
 

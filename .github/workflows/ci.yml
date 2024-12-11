@@ -14,11 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Check out the code from the repository
-      - name: Checkout code
-        uses: actions/checkout@v1
-        with:
-          repository: 'https://github.com/velvettouch1004/web3-react-metamask'
 
       # Set up Node.js (specify your Node version if needed)
       - name: Set up Node.js
